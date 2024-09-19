@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(204, 204, 204);
+}
+
+.card {
+  display: flex;
+  width: 50em;
+  height: 24em;
+  box-shadow: 0px 0px 10px rgb(170, 170, 170);
+}
+
+.card .product-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 196, 0);
+  padding: 2em;
+  width: 25em;
+}
+
+.product-image img {
+  margin-top: auto;
+  width: 20em;
+}
+
+.product-image figcaption {
+  margin: auto 0 0 auto;
+}
+
+.card .product-info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  width: 25em;
+}
+
+.product-info h1 {
+  padding-top: 1em;
+  font-size: 2rem;
+}
+
+.product-info h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+}
+
+.product-info p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.product-info button {
+  margin-top: auto;
+  align-self: flex-end;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0.7em 1em 0.7em 1em;
+}
